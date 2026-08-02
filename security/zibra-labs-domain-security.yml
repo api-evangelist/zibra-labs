@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of the Zibra Labs corporate host (no API base hosts published yet)
+hosts:
+- host: zibralabs.ai
+  https: true
+  server: GitHub.com
+  cert_issuer: Let's Encrypt
+  cert_subject: zibralabs.ai
+  cert_not_before: Jul  2 18:51:17 2026 GMT
+  cert_expires: Sep 30 18:51:16 2026 GMT
+  hsts: true
+  hsts_max_age: 31556952
+domains:
+- domain: zibralabs.ai
+  dnssec: false
+  caa: []
+  spf: true
+  spf_record: v=spf1 include:dc-aa8e722993._spfm.zibralabs.ai ~all
+  dmarc: true
+  dmarc_policy: quarantine
+  mx: google-workspace
+notes: >-
+  Zibra Labs (YC Spring 2026) currently publishes only a GitHub Pages marketing
+  site at zibralabs.ai; there is no API base host to probe yet. Values above are
+  for the corporate domain. HSTS is present, TLS is a valid Let's Encrypt
+  certificate, SPF and DMARC (p=quarantine) are configured, mail is Google
+  Workspace. No CAA record and no DNSSEC were observed.

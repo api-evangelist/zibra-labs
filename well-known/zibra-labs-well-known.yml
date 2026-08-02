@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface of the only host Zibra
+  Labs publishes today, the corporate marketing site zibralabs.ai (GitHub Pages).
+  No API base host is published yet. Every discovery path returned HTTP 404, an
+  honest empty result. No documents were saved.
+hosts:
+  - host: https://zibralabs.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
