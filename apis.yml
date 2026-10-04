@@ -52,7 +52,7 @@ tags:
 - AI Infrastructure
 - GPU
 - Cloud
-- Machine-Learning
+- Machine Learning
 - Y Combinator
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Cloud
 - Machine Learning
 - Y Combinator
+- Machine-Learning
 apis: []
 common:
 - type: Website
